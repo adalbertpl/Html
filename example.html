@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="graphics" style="position: relative;"></div>
+        
+
+        <script type="module">
+            import CircleDrawer from "./CircleDrawer"
+
+            var node = document.getElementById("graphics")
+            CircleDrawer.draw(node, {x: 50, y: 100}, 25)
+           
+        </script>
+    </body>
+</html>
